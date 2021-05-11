@@ -1,0 +1,208 @@
+body {
+    text-align: center;
+
+    margin: 200;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    background-color: rgb(221, 238, 253);
+    background-image: url("background-img.png");
+}
+
+h1{
+    font-family: 'Lucida Calligraphy';
+    color: rgb(221, 255, 221);
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(88, 87, 87);
+}
+.head{
+    color: aliceblue;
+    /*display: flex;
+    justify-content: stretch;*/
+}
+.head,p{
+    font-size: 20px;
+    font-family: 'Bookman Old Style';
+}
+.head,h3{
+    font-size: 35;
+    font-family: 'Bookman Old Style';
+
+}
+
+#back1{
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 100%;
+    width: 81%;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.class1{
+    color: antiquewhite;
+}
+.craft1{
+    color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+
+}
+.craft2{
+    color: aquamarine;
+    display: flex;
+    justify-content: space-around; 
+}
+.che{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+}
+.che h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.che:hover h2{
+    opacity: 1;
+}
+.che:hover img{
+    opacity: 0.5;
+}
+.che:hover h5{
+    opacity: 0;
+}
+.camel{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+
+}
+.camel h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.camel:hover h2{
+    opacity: 1;
+}
+.camel:hover img{
+    opacity: 0.5;
+}
+.camel:hover h5{
+    opacity: 0;
+}
+.cicada{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+
+}.cicada h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.cicada:hover h2{
+    opacity: 1;
+}
+.cicada:hover img{
+    opacity: 0.5;
+}
+.cicada:hover h5{
+    opacity: 0;
+}
+.panda{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+
+}
+.panda h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.panda:hover h2{
+    opacity: 1;
+}
+.panda:hover img{
+    opacity: 0.5;
+}
+.panda:hover h5{
+    opacity: 0;
+}
+.pigeon{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+
+}
+.pigeon h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.pigeon:hover h2{
+    opacity: 1;
+}
+.pigeon:hover img{
+    opacity: 0.5;
+}
+.pigeon:hover h5{
+    opacity: 0;
+}
+.teddy{
+
+    background-color: black;
+    background: linear-gradient(148deg, rgb(41, 41, 41) 65%,rgb(0, 0, 0) 65%);
+    position: relative;
+
+}
+.teddy h2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-54%,-54%);
+    opacity: 0;
+}
+.teddy:hover h2{
+    opacity: 1;
+}
+.teddy:hover img{
+    opacity: 0.5;
+}
+.teddy:hover h5{
+    opacity: 0;
+}
+
+.end{
+    color: ivory;
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(93, 93, 93) 100%);
+}
